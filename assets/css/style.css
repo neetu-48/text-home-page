@@ -343,6 +343,11 @@ input[type="first-name"] {
     width: 555px;
     height: 58px;
     padding: 18px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.7px;
+    color: rgba(9, 8, 8, 1);
 
 }
 
