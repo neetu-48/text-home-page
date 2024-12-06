@@ -26,7 +26,7 @@ a {
     margin: 0 auto;
     left: 0;
     position: absolute;
-    padding-top: 19px;
+    padding-top: 10px;
 }
 
 .gap-50 {
@@ -54,7 +54,6 @@ a {
 .main-heading {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 64px;
-    /* font-size: var(--fs); */
     font-weight: 800;
     line-height: 76.8px;
     text-align: left !important;
@@ -87,6 +86,8 @@ footer a svg {
 
 .bongo-section {
     min-height: 100vh;
+    padding-bottom: 140px;
+    padding-top: 140px;
 }
 
 .bongo-section .container {
@@ -148,10 +149,17 @@ footer a svg {
     /* padding: 11px 24px 11px 24px; */
     margin-top: 30px;
 }
+.see-btn:hover{
+    background-color: rgb(173, 219, 244);
+}
 
 /* service-section */
 .service-section .container {
     max-width: 1140px !important;
+}
+
+.service-section {
+    padding-bottom: 143px;
 }
 
 .service {
@@ -185,6 +193,9 @@ footer a svg {
     color: rgba(9, 8, 8, 1);
     background-color: white;
     padding: 11px 24px 11px 24px;
+}
+.see-service:hover{
+    background-color: rgb(173, 219, 244);
 }
 
 .card-1 {
@@ -229,15 +240,41 @@ footer a svg {
 }
 
 /* project-section */
-.lighting-image {
+.lighting-image:hover {
     background-image: url(../image/png/lighting-img.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    padding-left: 60px;
-    padding-right: 108px;
+
+    .aspire {
+        color: rgba(255, 255, 255, 1) !important;
+    }
+
+    .white-line {
+        border: 1px solid rgba(255, 255, 255, 1);
+    }
+
+    .standard {
+        color: rgba(255, 255, 255, 1) !important;
+    }
+
+    .hore {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .landmark {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .hotel-standard {
+        color: rgba(255, 255, 255, 1) !important;
+    }
+}
+
+.project-section {
+    padding-bottom: 143px;
 }
 
 .Conrad-Hotel {
@@ -254,7 +291,7 @@ footer a svg {
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    color: rgba(255, 255, 255, 1);
+    color: black;
 
 }
 
@@ -266,29 +303,36 @@ footer a svg {
     opacity: 80%;
     color: rgba(9, 8, 8, 1);
     padding-left: 10px;
+    padding-right: 108px;
+}
+
+.landmark {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 80%;
+    color: rgba(9, 8, 8, 1);
+    padding-left: 10px;
+    padding-right: 50px;
 }
 
 .white-line {
     width: 87px;
-    border: 1px solid rgba(255, 255, 255, 1);
-    margin: 3px;
-    display: inline-block;
-}
-
-.light-line {
-    width: 87px;
-    border: 1px solid rgba(0, 0, 0, 1);
+    border: 1px solid rgba(9, 8, 8, 1);
     opacity: 80%;
     margin: 3px;
     display: inline-block;
 }
+
 
 .aspire {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 36px;
     font-weight: 600;
     line-height: 43.2px;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(58 58 58) !important;
+    padding-left: 60px;
     margin-right: 400px;
 }
 
@@ -297,7 +341,7 @@ footer a svg {
     font-size: 36px;
     font-weight: 600;
     line-height: 43.2px;
-    color: rgba(58 58 58);
+    color: rgba(58 58 58) !important;
     margin-right: 384px;
 }
 
@@ -306,13 +350,17 @@ footer a svg {
     font-size: 36px;
     font-weight: 600;
     line-height: 43.2px;
-    color: rgba(58 58 58);
+    color: rgba(58 58 58) !important;
     margin-right: 389px;
 }
 
 /* tangible-section */
 .tangible-section .container {
     max-width: 1140px !important;
+}
+
+.tangible-section {
+    padding-bottom: 143px;
 }
 
 .card-box {
@@ -352,6 +400,11 @@ footer a svg {
     max-width: 1140px !important;
 }
 
+.form-section {
+    /* padding-top: 140px; */
+    padding-bottom: 140px;
+}
+
 input[type="first-name"] {
     max-width: 555px !important;
     width: 100%;
@@ -385,8 +438,8 @@ input[type="phone"] {
     padding: 18px;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 14px;
-    font-weight: 400;
     margin-bottom: 24px;
+    font-weight: 400;
     line-height: 21.7px;
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
@@ -398,6 +451,7 @@ input[type="email"] {
     padding: 18px;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 14px;
+    margin-bottom: 24px;
     font-weight: 400;
     line-height: 21.7px;
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -418,7 +472,7 @@ textarea[name="message"] {
     border: 1px solid rgba(0, 0, 0, 0.3);
     width: 100%;
     height: 162px;
-    margin-top: 6px !important;
+    /* margin-top: 24px !important; */
 }
 
 textarea {
@@ -478,9 +532,11 @@ textarea {
     margin-bottom: 11px;
     word-spacing: 10px;
 }
-img[alt="Vector"]{
+
+img[alt="Vector"] {
     margin-bottom: 19px;
 }
+
 .sub-heading {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 14px;
@@ -530,7 +586,7 @@ img[alt="Vector"]{
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 70px;
+    padding-left: 90px;
 }
 
 /* media quary */
@@ -544,17 +600,31 @@ img[alt="Vector"]{
 
         font-size: var(--fs-30);
     }
+    img[alt="logo-img"]{
+        margin-top: 10px;
+    }
 }
 
 @media (max-width:576px) {
+    img[alt="logo-img"]{
+        margin-top: 10px;
+    }
+    .white-line {
+        display: none !important;
+    }
 
     .main-heading {
 
         font-size: var(--fs-20);
     }
+  
 }
 
 @media (max-width:992px) {
+    img[alt="logo-img"]{
+        margin-top: 10px;
+    }
+    
     .bongo-section {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -575,6 +645,8 @@ img[alt="Vector"]{
         cursor: pointer;
         position: relative;
         z-index: 3;
+        left: 30%;
+        margin-top: 19px;
     }
 
 
@@ -618,18 +690,6 @@ img[alt="Vector"]{
         right: -100%;
         z-index: 1;
         transition: all 200ms linear;
-    }
-
-    .aspire {
-        margin-right: 5px;
-    }
-
-    .hotel-standard {
-        margin-right: 5px;
-    }
-
-    .standard {
-        margin-right: 5px;
     }
 
 }

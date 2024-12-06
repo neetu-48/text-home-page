@@ -12,18 +12,18 @@
 </head>
 
 <body>
-    <section class="hero-section d-flex flex-column">
+    <section class="hero-section d-flex flex-column mb-24">
         <header>
             <div class="container">
                 <nav class="d-flex align-items-center justify-content-center">
-                    <a href="#" class="logo-image"><img src="./assets/image/png/logo.png" alt="logo"></a>
+                    <a href="#" class="logo-image"><img src="./assets/image/png/logo.png" alt="logo-img"></a>
                     <input type="checkbox" id="menu" hidden>
                     <label for="menu">
                         <span></span>
                         <span></span>
                         <span></span>
                     </label>
-                    <div class="d-flex align-items-center justify-content-between gap-50 ul-modify">
+                    <div class="d-flex align-items-center gap-50 ul-modify">
                         <ul class="list-unstyled d-flex align-items-center justify-content-between gap-4">
                             <li><a href="#" class="active">About</a></li>
                             <li><a href="#">Services</a></li>
@@ -54,10 +54,10 @@
             </a>
         </footer>
     </section>
-    <section class="bongo-section d-flex align-items-center justify-content-center py-5">
+    <section class="bongo-section d-flex align-items-center justify-content-center">
         <div class="container">
-            <div class="row py-5">
-                <div class="col-12 col-lg-6 mb-24 py-5">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 mb-24">
                     <div class="line"></div>
                     <div style="display:inline-block;" class="about">ABOUT</div>
                     <h2 class="heading-h2">You Deserve More Than The Standard Results</h2>
@@ -69,13 +69,13 @@
                     </ul>
                     <button class="see-btn">See More</button>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 mb-24">
                     <img src="./assets/image/png/bongo-java.png" alt="image" width="100%">
                 </div>
             </div>
         </div>
     </section>
-    <section class="service-section min-vh-100 py-5">
+    <section class="service-section min-vh-100">
         <div class="container">
             <div class="line"></div>
             <div style="display:inline-block;" class="service">OUR SERVICES</div>
@@ -92,7 +92,7 @@
                         <h5 style="color: rgba(255, 255, 255, 1);" class="card-text">Drywall</h5>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 mb-24">
+                <div class="col-12 col-sm-6 col-md-4">
                     <div class="card-3">
                         <h5 style="color: rgba(255, 255, 255, 1);" class="card-text">Painting</h5>
                     </div>
@@ -106,25 +106,45 @@
             <div style="display:inline-block;" class="service">OUR PROJECTS</div>
             <button class="see-service">See All Projects</button>
             <h2 class="service-offer">Featured Projects</h2>
-            <div class="lighting-image py-5 d-flex align-items-center">
-                <h4 class="aspire">Aspire Gulch</h4>
-                <div class="white-line"></div>
-                <div style="display:inline-block;" class="const">Hoar Construction</div>
+        </div>
+        <div class="container">
+            <div class="row lighting-image py-5">
+                <div class="col-12 col-sm-6">
+                    <h4 class="aspire" style="white-space: nowrap;">Aspire Gulch</h4>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <div class="white-line"></div>
+                        <div style="display:inline-block;" class="hore">Hoar Construction</div>
+                    </div>
+                </div>
             </div>
-            <div class="Conrad-Hotel d-flex align-items-center">
-                <h4 class="hotel-standard d-flex gap-50">Conrad Hotel</h4>
-                <div class="light-line"></div>
-                <div style="display:inline-block;" class="hore">Hoar Construction</div>
+            <div class="row lighting-image py-5">
+                <div class="col-12 col-sm-6">
+                    <h4 class="aspire" style="white-space: nowrap;">Conrad Hotel</h4>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <div class="white-line"></div>
+                        <div style="display:inline-block;" class="hore">Hoar Construction</div>
+                    </div>
+                </div>
             </div>
-            <div class="Conrad-Hotel d-flex align-items-center">
-                <h4 class="standard">The Standard</h4>
-                <div class="light-line"></div>
-                <div style="display:inline-block;" class="hore">Landmark Construction</div>
+            <div class="row lighting-image py-5">
+                <div class="col-12 col-sm-6">
+                    <h4 class="aspire" style="white-space: nowrap;">The Standard</h4>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <div class="white-line"></div>
+                        <div style="display:inline-block;" class="landmark">Landmark Construction</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section class="tangible-section min-vh-100 py-5">
-        <div class="container py-5">
+    <section class="tangible-section min-vh-100">
+        <div class="container">
             <div class="line"></div>
             <div style="display:inline-block;" class="service">OUR EXPERTISE</div>
             <h2 class="service-offer">Tangible Results, Verified Success</h2>
@@ -232,22 +252,48 @@
 
         </div>
     </section>
-    <section class="form-section min-vh-100 py-5">
+    <section class="form-section min-vh-100">
         <div class="container">
             <div class="line"></div>
             <div style="display:inline-block;" class="service">LET’S TALK</div>
             <h2 class="service-offer">What Are You Envisioning?</h2>
-            <form class="form-btn">
-                <input type="first-name" placeholder="First Name">
+        </div>
+        <form class="form-btn" action="#">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <input type="first-name" placeholder="First Name">
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <input type="last-name" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <input type="phone" placeholder="Phone">
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <input type="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <textarea name="message" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                    <button class="form-submit">Submit</button>
+                </div>
+                <!-- <input type="first-name" placeholder="First Name">
                 <input type="last-name" placeholder="Last Name">
                 <input type="phone" placeholder="Phone">
                 <input type="email" placeholder="Email">
                 <textarea name="message" placeholder="Message"></textarea>
                 <div class="d-flex align-items-center justify-content-center">
                     <button class="form-submit">Submit</button>
-                </div>
-            </form>
-        </div>
+                </div> -->
+            </div>
+        </form>
     </section>
     <section class="footer-section">
         <div class="container">
